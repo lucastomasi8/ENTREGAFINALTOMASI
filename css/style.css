@@ -1,0 +1,87 @@
+form {
+  display: flex;
+  flex-direction: column; }
+
+h1 {
+  color: black; }
+
+h2 {
+  color: black; }
+
+ul {
+  background-color: rgb(214, 149, 57); }
+
+img {
+
+  height: 350px;
+  width: 350px; }
+
+ul {
+  list-style: none; }
+  ul li {
+    padding: 15px;
+    display: inline-block; }
+    ul li a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #444; }
+      ul li a:hover {
+        background-color: rgb(214, 149, 57) ; }
+
+.box_uno {
+  border: solid gray;
+  width: 360px;
+  /* Ancho de 360*/ }
+
+.box_dos {
+  border: solid black;
+  width: 310px; 
+  height: 350px;
+  width: 350px;
+}
+.verde {
+    background-color: antiquewhite;
+}
+.rosado {
+    background-color: bisque;
+}
+.celeste {
+    background-color: antiquewhite;
+}
+.azul {
+    background-color: bisque;
+} 
+.circle1, .circle2, .circle3, .circle4, .circle5{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+.circle1 {
+    background-color: blanchedalmond;
+    transition: all 3s ease;
+}
+.circle2{
+    background-color: bisque;
+    transition: all 3s ease-out;
+}
+.circle3{
+    background-color: burlywood;
+    transition: all 3s ease-in;
+}
+.circle4{
+    background-color: antiquewhite;
+    transition: all 3s ease-in-out;
+}
+.circle5{
+    background-color: coral;
+    transition: all 3s step-end;
+}
+.container-circle:hover .circle1,
+.container-circle:hover .circle2,
+.container-circle:hover .circle3,
+.container-circle:hover .circle4,
+.container-circle:hover .circle5{
+    transform: translateX(300px);
+}
+
